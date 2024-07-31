@@ -3,10 +3,13 @@
 *cache
 *table
 *bak
-.lck
+*.lck
 
 # Gerber
 Gerber
 
 # pdf
 *.pdf
+
+# Other
+*.zip
