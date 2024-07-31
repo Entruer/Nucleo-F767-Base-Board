@@ -1,0 +1,12 @@
+# Backup
+*backups
+*cache
+*table
+*bak
+.lck
+
+# Gerber
+Gerber
+
+# pdf
+*.pdf

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PDS540-13
+D Schottky Diodes & Rectifiers 5.0A 40V LFF
+K
+F https://www.diodes.com//assets/Datasheets/PDS540.pdf
+$ENDCMP
+#
+#End Doc Library
