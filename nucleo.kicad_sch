@@ -2129,6 +2129,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 146.05) (xy 232.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ea2f63-4a9a-44e9-a2ad-972c96931e5c")
+	)
+	(wire
+		(pts
 			(xy 55.88 110.49) (xy 58.42 110.49)
 		)
 		(stroke
@@ -2199,23 +2209,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 146.05) (xy 232.41 146.05)
+			(xy 168.91 123.19) (xy 171.45 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f6d237d-c9ca-4072-8c6b-43eebbe3ea91")
-	)
-	(wire
-		(pts
-			(xy 166.37 58.42) (xy 168.91 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "908f5c0f-28ac-4c3e-9720-c381b80544f8")
+		(uuid "8f78d7ea-2c5b-4cca-8e7c-93484fb8dbbf")
 	)
 	(wire
 		(pts
@@ -2226,16 +2226,6 @@
 			(type default)
 		)
 		(uuid "91d25b38-79cb-444a-ac16-df10b2c70828")
-	)
-	(wire
-		(pts
-			(xy 166.37 55.88) (xy 168.91 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e6b118-1bfb-4817-b67f-290ec43bbaf0")
 	)
 	(wire
 		(pts
@@ -2256,6 +2246,16 @@
 			(type default)
 		)
 		(uuid "e68d802f-5c7d-420b-beff-c227bf119040")
+	)
+	(wire
+		(pts
+			(xy 121.92 138.43) (xy 119.38 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac12705-83d9-476c-ab36-5406e97254bb")
 	)
 	(wire
 		(pts
@@ -2357,28 +2357,6 @@
 		)
 		(uuid "fc5e1d6d-4227-4016-965e-0eae8e12a64a")
 	)
-	(global_label "PWM1"
-		(shape input)
-		(at 166.37 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "0219c326-151a-4f22-b3da-ab458f60bdf3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.3491 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOS_IN2"
 		(shape input)
 		(at 55.88 113.03 180)
@@ -2414,28 +2392,6 @@
 		(uuid "0e6a5b77-a95c-4e06-9063-fb9544d656d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.0737 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM2"
-		(shape input)
-		(at 166.37 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "0efc0116-2be9-463e-8e9b-6694d7e77614")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.3491 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,28 +2441,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SW1"
-		(shape input)
-		(at 234.95 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "3d2b4dae-c467-4339-9759-c5419ba08e82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.0637 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2621,6 +2555,28 @@
 			)
 		)
 	)
+	(global_label "PWM1"
+		(shape input)
+		(at 234.95 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "67b741b1-2799-4484-bb37-73e389776879")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.9709 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANRX"
 		(shape input)
 		(at 121.92 115.57 0)
@@ -2665,6 +2621,28 @@
 			)
 		)
 	)
+	(global_label "SW1"
+		(shape input)
+		(at 168.91 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "7af6e35b-5f66-411d-82d0-d354716cca67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.7963 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOS_IN3"
 		(shape input)
 		(at 55.88 110.49 180)
@@ -2683,6 +2661,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM2"
+		(shape input)
+		(at 121.92 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "ae414e44-77a0-433d-a4f6-628973ace760")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.9409 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
